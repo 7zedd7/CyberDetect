@@ -1,0 +1,115 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.spam1{
+    color: #226579;
+}
+.spam2{
+    color: #F78F28;
+}
+.spam3{
+    color: #42D3FF;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 5%;
+    margin: 100px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    background: #EAEEF0;
+    border: none;
+}
+
+input[type="submit"] {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #067999);
+    background-image: -moz-linear-gradient(top, #000000, #067999);
+    background-image: -ms-linear-gradient(top, #000000, #067999);
+    background-image: -o-linear-gradient(top, #000000, #067999);
+    background-image: linear-gradient(to bottom, #000000, #067999);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+}
+
+input:hover {
+    background: #575757;
+    background-image: -webkit-linear-gradient(top, #575757, #33444f);
+    background-image: -moz-linear-gradient(top, #575757, #33444f);
+    background-image: -ms-linear-gradient(top, #575757, #33444f);
+    background-image: -o-linear-gradient(top, #575757, #33444f);
+    background-image: linear-gradient(to bottom, #575757, #33444f);
+    text-decoration: none;
+}
+
+.prediction {
+    margin-top: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.backvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .backvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .backvideo{
+        width: auto;
+        height: 100%;
+        
+    }
+}
+
+
+#str {
+    width: 400px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5%;
+    background: #000
+    
+ }
