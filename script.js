@@ -23,9 +23,6 @@ function cleanText(text) {
 }
 
 function classifyText(text) {
-    // Implement your classification logic here
-    // You can use a machine learning model or any other approach
-    // For simplicity, let's assume a random prediction between 0 and 1
     var prediction = Math.round(Math.random());
     
     if (prediction === 1) {
